@@ -2,20 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b219fddb-b8d9-4fd7-916a-b41728fd563b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/SingletonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/AtomicReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/AtomicStampedReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/CASDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_03container_not_safe/ContainerNotSafeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/interview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/interview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_04_pass_value/TestPassValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/CountDownLatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/CyclicBarrierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/FairLockNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/ReadWriteLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/ReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SemaphoreDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SpinLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SyncAndReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/BlockingQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/ProdConsumer_TraditionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/SynchronousQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_99_common/CountryEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_99_common/entity/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_99_common/entity/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_99_common/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_99_common/entity/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_99_common/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/VolatileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/VolatileNote.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_01volatile/MyData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cui/_01volatile/MyData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_01volatile/VolatileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cui/_01volatile/VolatileDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_01volatile/VolatileNote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/JMMNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_01_volatile/JMMNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_01_volatile/SingletonDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_01_volatile/VolatileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/AtomicReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_02_CAS/AtomicReferenceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/AtomicStampedReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_02_CAS/AtomicStampedReferenceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/CASDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_02_CAS/CASDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/_03container_not_safe/ContainerNotSafeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_03_container_not_safe/ContainerNotSafeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/init/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_89_init/Father.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/init/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_89_init/Son.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_88_singleton/Singleton1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_88_singleton/Singleton2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_88_singleton/Singleton3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_88_singleton/Singleton4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_88_singleton/Singleton5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_88_singleton/Singleton6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/singleton/SingletonNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_88_singleton/SingletonNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cui/singleton/TestSingleton3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_01volatile/JMMNote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_01volatile/MyData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_01volatile/SingletonDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_01volatile/VolatileDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_02CAS/AtomicReferenceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_02CAS/AtomicStampedReferenceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_02CAS/CASDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_02CAS/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_03container_not_safe/ContainerNotSafeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/init/Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/init/Son.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/singleton/Singleton1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/singleton/Singleton2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/singleton/Singleton3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/singleton/Singleton4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/singleton/Singleton5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/singleton/Singleton6$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/singleton/Singleton6$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/singleton/Singleton6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/singleton/SingletonNote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cui/singleton/TestSingleton3.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,36 +84,114 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/AbstractCollection.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/BlockingQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="450" column="17" lean-forward="true" selection-start-line="450" selection-start-column="17" selection-end-line="450" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-82">
-              <caret line="458" column="32" lean-forward="true" selection-start-line="458" selection-start-column="32" selection-end-line="458" selection-end-column="32" />
+            <state relative-caret-position="640">
+              <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
               <folding>
-                <element signature="e#6252#6253#0" expanded="true" />
-                <element signature="e#6320#6321#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_03container_not_safe/ContainerNotSafeDemo.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/CountDownLatchDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+            <state relative-caret-position="65">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/CyclicBarrierDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/ProdConsumer_TraditionDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/ReadWriteLockDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/ReentrantLockDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SemaphoreDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SpinLockDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-179">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SyncAndReentrantLockDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/SynchronousQueueDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,10 +213,15 @@
       <find>fast</find>
       <find>fail-fast</find>
       <find>*  *</find>
+      <find>public Thread</find>
+      <find>重用</find>
+      <find>atomic</find>
       <find>add</find>
+      <find>remove</find>
     </findStrings>
     <replaceStrings>
       <replace>*</replace>
+      <replace>重入</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -105,13 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/singleton/SingletonDemo.java" />
-        <option value="$PROJECT_DIR$/src/singleton.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/singleton.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cui/singleton/TestSingleton3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/singleton/SingletonNote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton4.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton5.java" />
@@ -125,15 +244,44 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/SortDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/SingletonDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/VolatileNote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/VolatileDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/_02CAS/CASDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/CASDemo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/AtomicReferenceDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/ABADemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/AtomicStampedReferenceDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cui/_03containernotsafe/ContainerNotSafeDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cui/_03container_not_safe/ContainerNotSafeDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/entity/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/VolatileDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/AtomicReferenceDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_04_pass_value/TestPassValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_04_pass_value/LockNote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/LockNote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/ReentrantLockNote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/entity/Phone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/entity/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/ReentrantLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/entity/Spin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SpinLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/DuLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/DuLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/DuLockNote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/entity/Cache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/ReadWriteLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/ContryEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/CountryEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/CountDownLatchDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/CyclicBarrier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/CyclicBarrierDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SemaphoreDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_06blocking_queue/BlockingQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/BlockingQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/SynchronousDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/SynchronousQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/ProdConsumer_TraditionDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SyncAndReentrantLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/_01_volatile/SingletonDemo.java" />
       </list>
     </option>
   </component>
@@ -172,11 +320,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
-    <option name="y" value="89" />
-    <option name="width" value="1651" />
-    <option name="height" value="864" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="107" />
+    <option name="y" value="28" />
+    <option name="width" value="1589" />
+    <option name="height" value="865" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -186,6 +334,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -237,21 +386,92 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cui" type="462c0819:PsiDirectoryNode" />
-              <item name="_03container_not_safe" type="462c0819:PsiDirectoryNode" />
+              <item name="_01_volatile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cui" type="462c0819:PsiDirectoryNode" />
+              <item name="_01_volatile" type="462c0819:PsiDirectoryNode" />
+              <item name="VolatileDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cui" type="462c0819:PsiDirectoryNode" />
+              <item name="_02_CAS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cui" type="462c0819:PsiDirectoryNode" />
+              <item name="_03_container_not_safe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cui" type="462c0819:PsiDirectoryNode" />
+              <item name="_04_pass_value" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cui" type="462c0819:PsiDirectoryNode" />
+              <item name="_05_lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cui" type="462c0819:PsiDirectoryNode" />
+              <item name="_06_blocking_queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cui" type="462c0819:PsiDirectoryNode" />
+              <item name="_06_blocking_queue" type="462c0819:PsiDirectoryNode" />
+              <item name="ProdConsumer_TraditionDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575131254079" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575214462147" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../juc-jvm-study" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -283,13 +503,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContainerNotSafeDemo">
-    <configuration name="AtomicReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cui._02CAS.AtomicReferenceDemo" />
+  <component name="RunManager" selected="Application.ProdConsumer_TraditionDemo">
+    <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cui._06_blocking_queue.BlockingQueueDemo" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cui._02CAS.*" />
+          <option name="PATTERN" value="com.cui._06_blocking_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,12 +517,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicStampedReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cui._02CAS.AtomicStampedReferenceDemo" />
+    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cui._05_lock.CyclicBarrierDemo" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cui._02CAS.*" />
+          <option name="PATTERN" value="com.cui._05_lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,12 +530,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CASDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cui._02CAS.CASDemo" />
+    <configuration name="ProdConsumer_TraditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cui._06_blocking_queue.ProdConsumer_TraditionDemo" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cui._02CAS.*" />
+          <option name="PATTERN" value="com.cui._06_blocking_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,12 +543,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerNotSafeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cui._03container_not_safe.ContainerNotSafeDemo" />
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cui._05_lock.SemaphoreDemo" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cui._03container_not_safe.*" />
+          <option name="PATTERN" value="com.cui._05_lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,12 +556,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cui._01volatile.SingletonDemo" />
+    <configuration name="SynchronousQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cui._06_blocking_queue.SynchronousQueueDemo" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cui._01volatile.*" />
+          <option name="PATTERN" value="com.cui._06_blocking_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,11 +570,11 @@
       </method>
     </configuration>
     <configuration name="VolatileDemo" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cui._01volatile.VolatileDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.cui._01_volatile.VolatileDemo" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cui._01volatile.*" />
+          <option name="PATTERN" value="com.cui._99_common.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,11 +584,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ContainerNotSafeDemo" />
-        <item itemvalue="Application.AtomicStampedReferenceDemo" />
-        <item itemvalue="Application.AtomicReferenceDemo" />
-        <item itemvalue="Application.CASDemo" />
-        <item itemvalue="Application.SingletonDemo" />
+        <item itemvalue="Application.ProdConsumer_TraditionDemo" />
+        <item itemvalue="Application.SynchronousQueueDemo" />
+        <item itemvalue="Application.BlockingQueueDemo" />
+        <item itemvalue="Application.SemaphoreDemo" />
+        <item itemvalue="Application.CyclicBarrierDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -388,6 +608,7 @@
       <workItem from="1575031527059" duration="6646000" />
       <workItem from="1575110622077" duration="8245000" />
       <workItem from="1575123663117" duration="7568000" />
+      <workItem from="1575172238040" duration="27066000" />
     </task>
     <servers />
   </component>
@@ -415,12 +636,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36420000" />
+    <option name="totallyTimeSpent" value="63486000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="89" width="1651" height="864" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17724702" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26812366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -429,8 +650,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3328767" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4712329" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43058568" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38029924" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -441,46 +662,15 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3253796" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.2884978" />
+      <window_info anchor="right" id="Maven" order="1" weight="0.28806585" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17724702" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38767123" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4712329" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3253796" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.2884978" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -491,6 +681,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Thread.currentThread().getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>this.getClass().getClassLoader().get</expression-string>
         <language-id>JAVA</language-id>
@@ -529,174 +724,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/singleton.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/singleton/SingletonDemo.java" />
-    <entry file="jar://E:/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/singleton.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cui/singleton/TestSingleton3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/singleton/SingletonNote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/cui/init/Father.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-261">
-          <folding>
-            <element signature="e#0#547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/cui/init/Son.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#677#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/init/Son.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/init/Father.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/Note.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_01volatile/SortDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/singleton/Singleton5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_01volatile/VolatileNote.java" />
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_01volatile/SingletonDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_01volatile/VolatileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1569">
-          <caret line="354" column="51" selection-start-line="354" selection-start-column="51" selection-end-line="354" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#13700#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_01volatile/JMMNote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1433">
-          <caret line="157" column="27" lean-forward="true" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
-          <folding>
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4085#4086#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar!/lombok/Getter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -736,33 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_02CAS/AtomicReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_02CAS/AtomicStampedReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_02CAS/CASDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -777,31 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="434" column="20" lean-forward="true" selection-start-line="434" selection-start-column="20" selection-end-line="434" selection-end-column="20" />
-          <folding>
-            <element signature="e#3605#3606#0" expanded="true" />
-            <element signature="e#3644#3645#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="450" column="17" lean-forward="true" selection-start-line="450" selection-start-column="17" selection-end-line="450" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/com/sun/corba/se/impl/orbutil/DenseIntMapImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="691">
@@ -809,10 +784,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12267">
+          <caret line="450" column="17" selection-start-line="450" selection-start-column="17" selection-end-line="450" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="458" column="32" lean-forward="true" selection-start-line="458" selection-start-column="32" selection-end-line="458" selection-end-column="32" />
+        <state relative-caret-position="12209">
+          <caret line="458" column="32" selection-start-line="458" selection-start-column="32" selection-end-line="458" selection-end-column="32" />
           <folding>
             <element signature="e#6252#6253#0" expanded="true" />
             <element signature="e#6320#6321#0" expanded="true" />
@@ -820,14 +802,358 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_03container_not_safe/ContainerNotSafeDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/entity/MyData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_99_common/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_99_common/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_99_common/entity/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="459" column="4" lean-forward="true" selection-start-line="459" selection-start-column="4" selection-end-line="459" selection-end-column="17" />
+          <folding>
+            <element signature="e#15480#15481#0" expanded="true" />
+            <element signature="e#15546#15547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/entity/Spin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_99_common/entity/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="352" column="17" lean-forward="true" selection-start-line="352" selection-start-column="17" selection-end-line="352" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="157" column="26" selection-start-line="157" selection-start-column="26" selection-end-line="157" selection-end-column="26" />
+          <folding>
+            <element signature="e#1762#1763#0" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4085#4086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/DuLockNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_99_common/entity/Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="199" column="28" selection-start-line="199" selection-start-column="24" selection-end-line="199" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_89_init/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_99_common/CountryEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cui/singleton/TestSingleton3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="91" column="19" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="19" />
+          <folding>
+            <element signature="e#3605#3606#0" expanded="true" />
+            <element signature="e#3644#3645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="190" column="6" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="492" column="25" selection-start-line="492" selection-start-column="19" selection-end-line="492" selection-end-column="25" />
+          <folding>
+            <element signature="e#6812#6813#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-419">
+          <caret line="231" column="9" selection-start-line="231" selection-start-column="9" selection-end-line="231" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/workspace/fastPublishTool/src/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_01_volatile/JMMNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_01_volatile/SingletonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_01_volatile/VolatileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_02_CAS/AtomicReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_02_CAS/AtomicStampedReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_02_CAS/CASDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-725">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_03_container_not_safe/ContainerNotSafeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-422">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_04_pass_value/TestPassValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/FairLockNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/CyclicBarrierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/ReadWriteLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/ReentrantLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SemaphoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SpinLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SyncAndReentrantLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/BlockingQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/ProdConsumer_TraditionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/SynchronousQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
