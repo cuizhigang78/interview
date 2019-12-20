@@ -9,6 +9,8 @@ package com.cui._08_thread_pool;
  *                         次提交当前任务；
  * 4. DiscardPolicy：直接丢弃任务，不予任何处理也不抛出异常。如果允许任务丢失，这是
  *                   最好的一种方案。
+ *     总结：以上四种拒绝策略，均为RejectedExecutionHandler接口的实现类，所以在实际生产中，
+ * 针对不同的业务情况，可以自定义拒绝策略来满足多样的业务条件。
  */
 public class RejectedExecutionHandlerDemo {
 }

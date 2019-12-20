@@ -2,8 +2,6 @@ package com.cui._09_dead_lock;
 
 import lombok.AllArgsConstructor;
 
-import java.util.concurrent.TimeUnit;
-
 @AllArgsConstructor
 class HoldLockThread implements Runnable {
     private String lockA;
@@ -31,6 +29,11 @@ public class DeadLockDemo {
 
         new Thread(new HoldLockThread(lockA, lockB), "AAA").start();
         new Thread(new HoldLockThread(lockB, lockA), "BBB").start();
+        /**
+         * linux ps -ef|grep xxxx ls -l
+         *
+         * windows jps -l
+         */
     }
 }
 
