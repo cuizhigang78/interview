@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b219fddb-b8d9-4fd7-916a-b41728fd563b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_10_String_pool/StringPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_86_design_pattern/DesignPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_87_Map/HashMapPutDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_87_Map/HashMapSourceCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cui/_87_Map/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/_08_thread_pool/CustomizedThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_08_thread_pool/CustomizedThreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/_08_thread_pool/RejectedExecutionHandlerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_08_thread_pool/RejectedExecutionHandlerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cui/_09_dead_lock/DeadLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cui/_09_dead_lock/DeadLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_01_volatile/SingletonDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cui/_01_volatile/SingletonDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_03_container_not_safe/ContainerNotSafeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cui/_03_container_not_safe/ContainerNotSafeDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_05_lock/CountDownLatchDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cui/_05_lock/CountDownLatchDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_05_lock/SpinLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cui/_05_lock/SpinLockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_06_blocking_queue/ProdConsumer_TraditionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cui/_06_blocking_queue/ProdConsumer_TraditionDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_06_blocking_queue/SynchronousQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cui/_06_blocking_queue/SynchronousQueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_08_thread_pool/CustomizedThreadPoolDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cui/_08_thread_pool/CustomizedThreadPoolDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cui/_08_thread_pool/RejectedExecutionHandlerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cui/_08_thread_pool/RejectedExecutionHandlerDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/interview.kotlin_module" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,52 +23,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_09_dead_lock/DeadLockDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_87_Map/HashMapPutDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_87_Map/HashMapSourceCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/_87_Map/MapDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -138,63 +73,6 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/VolatileNote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/_02CAS/CASDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/CASDemo.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/ABADemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/AtomicStampedReferenceDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_03containernotsafe/ContainerNotSafeDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_03container_not_safe/ContainerNotSafeDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/entity/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_01volatile/VolatileDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_02CAS/AtomicReferenceDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_04_pass_value/TestPassValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_04_pass_value/LockNote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/LockNote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/ReentrantLockNote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/entity/Phone.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/entity/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/ReentrantLockDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/entity/Spin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SpinLockDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/DuLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/DuLockDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/DuLockNote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/entity/Cache.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/ReadWriteLockDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/ContryEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/CountryEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/CountDownLatchDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/CyclicBarrier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/CyclicBarrierDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SemaphoreDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_06blocking_queue/BlockingQueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/BlockingQueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/SynchronousDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/SynchronousQueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_06_blocking_queue/ProdConsumer_TraditionDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_05_lock/SyncAndReentrantLockDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_01_volatile/SingletonDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_07_Callable/CallableDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_08_thread_pool/MyThreadPoolDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_08_thread_pool/CustomizedThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_08_thread_pool/RejectedExecutionHandlerDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_08_thread_pool/CustomizedThreadPoolDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_10_String_pool/StringPoolDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_87_Map/HashMapDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_86_design_pattern/DesignPatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_87_Map/MapDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_87_Map/HashMapSourceCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_09_dead_lock/DeadLockDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cui/_87_Map/HashMapPutDemo.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -317,6 +195,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576774209926" />
@@ -507,74 +386,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="162" y="48" width="1353" height="1100" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29211086" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.329718" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.44143167" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4099783" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329927" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4143167" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.44577006" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.36767897" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Maven" order="1" weight="0.28806585" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29234338" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.329718" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49946696" visible="true" weight="0.44143167" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4099783" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.329718" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.329927" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4143167" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.44577006" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.36767897" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Maven" order="1" weight="0.28806585" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
