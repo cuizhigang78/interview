@@ -1,11 +1,13 @@
 package com.cui._09_dead_lock;
 
-import lombok.AllArgsConstructor;
-
-@AllArgsConstructor
 class HoldLockThread implements Runnable {
     private String lockA;
     private String lockB;
+
+    public HoldLockThread(String lockA, String lockB) {
+        this.lockA = lockA;
+        this.lockB = lockB;
+    }
 
     @Override
     public void run() {
